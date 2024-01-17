@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-image: url("./img/reloj.jpg");*/
+    background-color: black;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title{
+    color: rgb(73, 199, 238);
+    font-size: 5rem;
+    padding-bottom: 20px;
+}
+.circ-1{
+    background-color: white;
+    width: 500px;
+    height: 50vh;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 5px rgba(0, 140, 255, 0.2);
+}
+
+.circ-2{
+    position: relative;
+    background-color: rgba(0, 94, 170, 0.829);
+    width: 450px;
+    height: 45vh;
+    border-radius: 100%;
+    transform: translate(-3px);
+}
+
+.clac{
+    width: 46%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    height: 6px;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.4s;    
+}
